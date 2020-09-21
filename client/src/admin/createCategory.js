@@ -51,7 +51,7 @@ const Createcategory = () => {
 
   return (
     <div>
-      <Base title="Create category">
+      <Base title="Create category" description="Create New categories">
         <div className="row">
           <div className="col-md-6 offset-sm-3 text-left">{categoryForm()}</div>
         </div>

@@ -21,7 +21,7 @@ const SelectCategory = () => {
   };
 
   return (
-    <Base title="Select category" description="SelectCategory">
+    <Base title="Select category" description="Select Category to add blog">
       <div>
         <Link to="/admin" className="btn btn-primary btn-md mb-4">
           Admin Home

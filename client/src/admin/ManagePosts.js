@@ -30,7 +30,6 @@ const ManagePosts = ({ history }) => {
         console.log("Successfully deleted");
       });
       const timeOut = setTimeout(() => {
-        console.log("This function ran");
         history.push("/allPosts");
       }, 1000);
       return () => clearTimeout(timeOut);

@@ -14,7 +14,7 @@ const CreateBlog = (props) => {
     error: false,
   });
 
-  const { author, title, description, markdown } = fields;
+  const { author, title, description, markdown, error } = fields;
 
   const handleChange = (inputValues) => (event) => {
     setFields({ ...fields, error: false, [inputValues]: event.target.value });
@@ -27,7 +27,7 @@ const CreateBlog = (props) => {
     await createPost({ fields }, id).then((data) => {
       if (data.error) {
         setFields({ ...fields, error: true });
-        console.log(data.error);
+        alert("Something is wrong please check the fields before posting");
       } else {
         console.log("SUCCESS");
         setFields({
@@ -97,11 +97,14 @@ const CreateBlog = (props) => {
 
   return (
     <div>
-      <Base title="Create Blog">
+      <Base title="Create Blog" description="Add blogs  ">
         <div className="row">
           <div className="col-md-6 offset-3 text-left">{createPostForm()}</div>
         </div>
-        <span className="text-center text-white">{JSON.stringify(fields)}</span>
+        <h2 className="text-center text-white">
+          {" "}
+          Error : {JSON.stringify(error)}
+        </h2>
       </Base>
     </div>
   );

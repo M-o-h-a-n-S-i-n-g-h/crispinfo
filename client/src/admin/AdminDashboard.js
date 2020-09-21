@@ -61,10 +61,7 @@ const AdminDashboard = ({ match }) => {
   };
 
   return (
-    <Base
-      title="Welcome Admin"
-      description="Manage your orders and products here"
-    >
+    <Base title="Welcome Admin" description="Manage your Posts here">
       <div className="row ">
         <div className="col-3">{adminLeftSide()}</div>
         <div className="col-9">{adminRightSide()}</div>
