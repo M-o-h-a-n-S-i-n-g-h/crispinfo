@@ -73,15 +73,6 @@ export const Global = createGlobalStyle`
       width:90%;
       margin:auto;
   }
-  hr{
-      border:solid 1.5px #9c88ff;
-      width:100%;
-      margin:auto;
-      margin-top:-.5rem;
-      margin-bottom:3em;
-  }
-
-
   }
 
 
