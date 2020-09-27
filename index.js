@@ -12,8 +12,7 @@ const path = require("path");
 
 mongoose
   .connect(
-    process.env.DATABASEID ||
-      "mongodb+srv://MohanSingh:mohan@469@crispbase.qezlv.mongodb.net/crispbase?retryWrites=true&w=majority",
+    process.env.DATABASEID ,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
