@@ -92,6 +92,7 @@ const Signin = () => {
                 className="form-control"
                 placeholder="Enter Email"
                 onChange={handleChange("email")}
+                required
               />
             </div>
             <div className="form-group">
@@ -102,6 +103,7 @@ const Signin = () => {
                 className="form-control"
                 placeholder="Password"
                 onChange={handleChange("password")}
+                required
               />
             </div>
             <Button className="btn btn-primary" type="submit">

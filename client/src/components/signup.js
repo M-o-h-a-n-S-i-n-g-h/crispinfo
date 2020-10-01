@@ -77,7 +77,7 @@ const Signup = () => {
   const signupForm = () => {
     return (
       <Fragment>
-           <hr className="underline" />
+        <hr className="underline" />
         <GlobalSignup>
           <h2 className="text-center text-white">Signup Page</h2>
           <Form onSubmit={onSubmit}>
@@ -89,6 +89,7 @@ const Signup = () => {
                 value={name}
                 className="form-control"
                 placeholder="Enter Name"
+                required
               />
             </div>
             <div className="form-group">
@@ -99,6 +100,7 @@ const Signup = () => {
                 value={email}
                 className="form-control"
                 placeholder="Enter email"
+                required
               />
             </div>
             <div className="form-group">
@@ -109,6 +111,7 @@ const Signup = () => {
                 type="password"
                 className="form-control"
                 placeholder="Password"
+                required
               />
             </div>
             <Button type="submit" className="btn btn-primary">

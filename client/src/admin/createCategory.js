@@ -39,6 +39,7 @@ const Createcategory = () => {
               type="text"
               className="form-control"
               placeholder="Enter category"
+              required
             />
           </div>
         </form>
