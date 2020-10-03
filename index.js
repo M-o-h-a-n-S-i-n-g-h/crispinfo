@@ -10,11 +10,13 @@ const categoryRoutes = require("./routes/category");
 const userRoutes = require("./routes/user");
 const path = require("path");
 
-mongoose
-  .connect(process.env.DATABASEID, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+mongoose.connect(
+    process.env.DATABASEID ,
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    }
+  )
   .then(() => {
     console.log("Database connected");
   })
