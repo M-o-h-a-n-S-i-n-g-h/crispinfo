@@ -53,6 +53,7 @@ const CreateBlog = (props) => {
               className="form-control"
               placeholder="Enter author"
               onChange={handleChange("author")}
+              required
             />
           </div>
           <div className="form-group">
@@ -63,6 +64,7 @@ const CreateBlog = (props) => {
               className="form-control"
               placeholder="Title"
               onChange={handleChange("title")}
+              required
             />
           </div>
           <div className="form-group">
@@ -73,6 +75,7 @@ const CreateBlog = (props) => {
               className="form-control"
               placeholder="Description"
               onChange={handleChange("description")}
+              required
             />
           </div>
 

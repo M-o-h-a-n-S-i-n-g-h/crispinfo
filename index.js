@@ -10,8 +10,7 @@ const categoryRoutes = require("./routes/category");
 const userRoutes = require("./routes/user");
 const path = require("path");
 
-mongoose
-  .connect(
+mongoose.connect(
     process.env.DATABASEID ,
     {
       useNewUrlParser: true,
