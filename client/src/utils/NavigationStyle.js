@@ -1,11 +1,6 @@
 import styled from "styled-components";
-import { logoFont, typeScale, yellow } from "../utils";
-import {
-  topHeaderFont,
-  descFont,
-  cardHeader,
-  paragraphFont,
-} from "./typography";
+import { typeScale } from "../utils";
+import { topHeaderFont, paragraphFont } from "./typography";
 
 export const GlobalNavbar = styled.div`
   .navi-bar {

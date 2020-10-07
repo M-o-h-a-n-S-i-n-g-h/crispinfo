@@ -1,7 +1,6 @@
 import React, { Fragment, useState } from "react";
 import { NavLink, Link, useHistory, withRouter } from "react-router-dom";
 import Cookies from "js-cookie";
-import styled from "styled-components";
 import { signout, isAuthenticated } from "../auth/helper";
 import { RotateSpinner } from "react-spinners-kit";
 import { GlobalNavbar } from "../utils";

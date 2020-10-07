@@ -1,15 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import UserNav from "./UserNav";
-import { yellow, quoteFont, cardHeader, descFont } from "../utils/index";
+import { yellow, quoteFont, descFont } from "../utils/index";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-
-const Header = styled.h1`
-  color: white;
-  text-align: center;
-  vertical-align: center;
-`;
 
 const Main = styled.main`
   width: 95%;

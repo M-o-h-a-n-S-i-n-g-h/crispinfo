@@ -24,7 +24,6 @@ const Signin = () => {
 
   const onSubmit = (event) => {
     event.preventDefault();
-    //!TODO:Add fields validation
     setFields({ ...fields, error: false, loading: true });
     setTimeout(() => {
       signin({ email, password }).then((data) => {
