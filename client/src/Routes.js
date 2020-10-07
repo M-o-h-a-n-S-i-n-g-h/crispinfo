@@ -45,6 +45,7 @@ const Routes = () => {
             ></AdminRoute>
             <Route exact path="/admin/login" component={Signin}></Route>
             <Route exact path="/user/signup" component={Signup}></Route>
+            <Route exact path="/user/login" component={Signin}></Route>
             <Route exact path="/categories" component={Categories}></Route>
             <Route exact path="/blog/:id" component={ViewLayout}></Route>
             <Route

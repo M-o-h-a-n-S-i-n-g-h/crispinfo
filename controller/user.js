@@ -88,7 +88,7 @@ exports.login = async (req, res) => {
             user: { _id, email, name, role },
           });
         }
-        return res.json({
+        return res.status(400).json({
           error: "Please enter your correct credentials",
         });
       });
