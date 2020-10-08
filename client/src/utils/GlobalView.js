@@ -53,9 +53,6 @@ export const ViewDiv = styled.div`
   }
 
   blockquote p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: #e1e1e1;
     font-size: ${typeScale.paragraph};
   }
