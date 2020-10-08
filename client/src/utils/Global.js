@@ -11,6 +11,10 @@ export const Global = createGlobalStyle`
         text-decoration:none;
    
     }
+    
+    strong{
+      color:yellow;
+    }
 
     body{
         height:100vh;
@@ -26,6 +30,12 @@ export const Global = createGlobalStyle`
       color:white;
       font-size:${typeScale.listFont};
       margin:.4em;
+    }
+
+    blockquote ol > li {
+      font-size:${typeScale.listFont};
+      color:white;
+      padding-bottom:1em;
     }
 
     h1 {
