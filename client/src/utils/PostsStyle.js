@@ -41,8 +41,8 @@ export const PostStyle = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 3em;
-    margin-bottom: 2em;
     margin-top: -0.7em;
+    padding-bottom: 5em;
   }
 
   .card-title {

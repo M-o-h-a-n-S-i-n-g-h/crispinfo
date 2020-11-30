@@ -56,8 +56,10 @@ const About = () => {
         <AboutDiv>
           <h1>About Me</h1>
           <h4>
-            Hey there I'm <strong>Mohan Singh</strong> ,I love web developement
-            ,building web applications and creating content
+            Hey there I'm <strong>Shibin Raj</strong> a student who's a
+            Chemistry fanatic . Here is a glimpse of my diet which I had for
+            chemistry ! Reaching a height of chemical(molecular) machineman is
+            my ultimate goal....
           </h4>
         </AboutDiv>
       </main>
