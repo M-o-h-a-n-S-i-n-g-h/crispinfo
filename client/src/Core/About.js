@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import { quoteFont } from "../utils/index";
 
 const AboutDiv = styled.div`
-  padding: 1em;
+  padding: 0.5em;
   text-align: center;
   background: black;
   width: 100%;
@@ -13,7 +13,7 @@ const AboutDiv = styled.div`
   border-left: yellow 5px groove;
   border-top: yellow 5px groove;
   box-shadow: 4px 4px #b4e7ce;
-  margin-bottom: 3em;
+  margin-top: 2em;
 
   h1 {
     padding: 1rem;
@@ -25,12 +25,12 @@ const AboutDiv = styled.div`
     width: 80%;
     margin: auto;
     color: grey;
-    padding: 1em;
-    font-size: 2em;
+    padding: 0.5em;
+    font-size: 1.8em;
     border: solid 1px white;
     box-shadow: 3px 3px white;
     margin-top: 1em;
-    border-left: yellow 5px groove;
+    border-left: #91912f 5px groove;
     margin-bottom: 1em;
     font-family: ${quoteFont};
   }
@@ -44,7 +44,6 @@ const About = () => {
       </Helmet>
       <UserNav />
       <main>
-        <h1>About Us</h1>
         <AboutDiv>
           <h1>About Crispinfo</h1>
           <h4>
@@ -58,7 +57,7 @@ const About = () => {
           <h4>
             Hey there I'm <strong>Shibin Raj</strong> a student who's a
             Chemistry fanatic . Here is a glimpse of my diet which I had for
-            chemistry ! Reaching a height of chemical(molecular) machineman is
+            chemistry ! Reaching a height of chemical (molecular) machineman is
             my ultimate goal....
           </h4>
         </AboutDiv>
