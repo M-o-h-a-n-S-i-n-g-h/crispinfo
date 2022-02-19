@@ -8,8 +8,7 @@ exports.isSignedIn = (req, res, next) => {
     });
   } else {
     try {
-      const token = tokenHeader;
-      const decoded = jwt.verify(token, process.env.JWT_SECRET, (err, user) => {
+      const decoded = jwt.verify(tokenHeader, process.env.JWT_SECRET, (err, user) => {
         if (err) {
           console.log(err);
           return res.status(400).json({

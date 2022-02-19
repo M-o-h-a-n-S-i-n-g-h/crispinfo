@@ -53,12 +53,10 @@ const About = () => {
           </h4>
         </AboutDiv>
         <AboutDiv>
-          <h1>About Me</h1>
+          <h1>About Us</h1>
           <h4>
-            Hey there I'm <strong>Shibin Raj</strong> a student who's a
-            Chemistry fanatic . Here is a glimpse of my diet which I had for
-            chemistry ! Reaching a height of chemical (molecular) machineman is
-            my ultimate goal....
+            Hey there, It's Mohan Singh, Abirami and Aneesh here. We created this site just to make
+            users grasp the densed information in a crisp way of representing the topic in crispinfo.
           </h4>
         </AboutDiv>
       </main>
